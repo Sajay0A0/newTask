@@ -38,11 +38,12 @@
   padding: 0 0 0 10px;
 }
 .search-icon {
-  margin: 15px 0 0 110px;
+  margin: 15px 0 0 120px;
   display: flex;
   position: absolute;
   width: 18px;
   height: 18px;
+  cursor: pointer;
 }
 .search-input {
   border-radius: 60px;
@@ -55,9 +56,10 @@
 }
 .search-input::placeholder {
   font-family: outfit;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
-  padding: -60px 0 0 0;
+  margin: -60px 0 0 0;
+  color: #8e8e8e;
   position: relative;
 }
 .like {
@@ -96,7 +98,7 @@
   padding: 20px 128px 0 128px;
 }
 .info-bar {
-  margin: 0 30px 0 -10px;
+  margin: 0 20px 0 -10px;
   color: #f9ca9f;
 }
 .info-img {
@@ -397,7 +399,7 @@
   font-size: 13px;
   line-height: 23px;
   color: #c71616;
-  width: 230px;
+  width: 250px;
   height: auto;
   display: flex;
   text-align: left;
@@ -1251,7 +1253,6 @@
     gap: 10px;
     overflow-x: auto;
     padding: 0 10px;
-    /* margin: 0 0 0 0px; */
   }
 
   .news-img-div {
@@ -1263,8 +1264,7 @@
   .news-img {
     width: 100%;
     height: auto;
-  }
-  .content-div {
+  }  .content-div {
     position: absolute;
     margin: -30px 0;
     display: flex;
@@ -1612,8 +1612,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 16px;
-    width: 80%;
+    font-size: 18px;
+    width: 90%;
   }
   .price {
     font-size: 14px;
@@ -1814,11 +1814,10 @@
     gap: 10px;
     overflow-x: auto;
     padding: 0 10px;
-    /* margin: 0 0 0 0px; */
   }
 
   .news-img-div {
-    width: 27%;
+    width: 100%;
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -2046,7 +2045,7 @@
   }
 
   .category-name {
-    font-size: 16px;
+    font-size: 18px;
     margin-left: -4px;
   }
   .fasion-name {
@@ -2173,8 +2172,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 16px;
-    width: 80%;
+    font-size: 20px;
+    width: 90%;
   }
   .price {
     font-size: 16px;
@@ -2375,11 +2374,10 @@
     gap: 10px;
     overflow-x: auto;
     padding: 0 10px;
-    /* margin: 0 0 0 0px; */
   }
 
   .news-img-div {
-    width: 27%;
+    width: 100%;
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -2731,8 +2729,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 18px;
-    width: 80%;
+    font-size: 20px;
+    width: 85%;
   }
   .price {
     font-size: 16px;
@@ -2942,7 +2940,7 @@
   }
 
   .news-img-div {
-    width: 28%;
+    width: 100%;
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -3170,7 +3168,7 @@
   }
 
   .category-name {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: -4px;
   }
   .fasion-name {
@@ -3302,8 +3300,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 18px;
-    width: 70%;
+    font-size: 20px;
+    width: 85%;
   }
   .price {
     font-size: 16px;
@@ -3509,7 +3507,7 @@
   }
 
   .news-img-div {
-    width: 28%;
+    width: 100%;
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -3870,8 +3868,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 18px;
-    width: 70%;
+    font-size: 20px;
+    width: 80%;
   }
   .price {
     font-size: 16px;
@@ -4058,7 +4056,7 @@
     width: 50%;
     margin: 10px 0 0 5px;
   }
-  .news-div {
+    .news-div {
     width: 100%;
     display: flex;
     overflow-x: auto;
@@ -4077,7 +4075,7 @@
   }
 
   .news-img-div {
-    width: 28%;
+    width: 100%;
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -4438,8 +4436,8 @@
     width: 100%;
   }
   .card-text {
-    font-size: 18px;
-    width: 70%;
+    font-size: 20px;
+    width: 75%;
   }
   .price {
     font-size: 16px;
@@ -5385,7 +5383,7 @@
   }
 
   .fasion-img-div-2 {
-    width: 50%;
+    width: calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -5614,7 +5612,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 10px;
-    padding: 10px;
+    padding: 0 0 30px 0px;
     margin: 0;
   }
 
@@ -5623,12 +5621,11 @@
     flex-wrap: nowrap;
     gap: 10px;
     overflow-x: auto;
-    padding: 0 10px;
-    /* margin: 0 0 0 0px; */
+    padding: 0 0px;
   }
 
   .news-img-div {
-    width: 31%;
+    width:calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -5879,7 +5876,7 @@
   }
 
   .fasion-img-div-2 {
-    width: 50%;
+    width: calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -6106,7 +6103,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 10px;
-    padding: 10px;
+    padding: 0 0 30px 0px;
     margin: 0;
   }
 
@@ -6115,12 +6112,11 @@
     flex-wrap: nowrap;
     gap: 10px;
     overflow-x: auto;
-    padding: 0 10px;
-    /* margin: 0 0 0 0px; */
+    padding: 0 0px;
   }
 
   .news-img-div {
-    width: 31%;
+    width:calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -6357,7 +6353,7 @@
     line-height: 20px;
   }
   .fasion-main-div-2 {
-    width: 100%;
+    width:100%;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -6375,7 +6371,7 @@
   }
 
   .fasion-img-div-2 {
-    width: 50%;
+    width:calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -6603,7 +6599,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 10px;
-    padding: 10px;
+    padding: 0 0 30px 0px;
     margin: 0;
   }
 
@@ -6612,12 +6608,11 @@
     flex-wrap: nowrap;
     gap: 10px;
     overflow-x: auto;
-    padding: 0 10px;
-    margin: 0 0 40px 0px;
+    padding: 0 0px;
   }
 
   .news-img-div {
-    width: 31%;
+    width:calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -7025,8 +7020,8 @@
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 18px;
-    padding: 10px;
+    gap: 10px;
+    padding: 0 0 30px 0px;
     margin: 0;
   }
 
@@ -7035,12 +7030,11 @@
     flex-wrap: nowrap;
     gap: 10px;
     overflow-x: auto;
-    padding: 0 10px;
-    /* margin: 0 0 0 0px; */
+    padding: 0 0px;
   }
 
   .news-img-div {
-    width: 31%;
+    width:calc(100%/3);
     flex-shrink: 0;
     margin-right: 10px;
   }
@@ -8008,7 +8002,7 @@
   .title-2 {
     font-size: 24px;
     line-height: 100px;
-    margin: 0px 0 0 37%;
+    margin: 0px 0 0 41%;
     padding-bottom: 10px;
   }
   .title-2::after {
@@ -8016,7 +8010,7 @@
     top: 10px;
     bottom: 45%;
     width: 40px;
-    margin: 75px 0 0 115px;
+    margin: 75px 0 0 110px;
   }
 
   .title-2::before {
@@ -8024,7 +8018,7 @@
     right: 0;
     top: 20px;
     bottom: 20px;
-    width: 30%;
+    width: 28%;
     margin: 0px 0 0 20px;
   }
 
@@ -8098,7 +8092,7 @@
   .title-4 {
     font-size: 24px;
     line-height: 100px;
-    margin: 0px 0 0 35%;
+    margin: 0px 0 0 40%;
     padding-bottom: 10px;
   }
   .title-4::after {
@@ -8106,7 +8100,7 @@
     top: 10px;
     bottom: 45%;
     width: 40px;
-    margin: 75px 0 0 16%;
+    margin: 75px 0 0 15%;
   }
 
   .title-4::before {
@@ -8114,8 +8108,8 @@
     right: 0;
     top: 20px;
     bottom: 20px;
-    width: 35%;
-    margin: 0px 0 0 10px;
+    width: 30%;
+    margin: 0px 0 0 20px;
   }
   .eid-pic {
     width: 100%;
@@ -8125,7 +8119,7 @@
   .title-5 {
     font-size: 24px;
     line-height: 100px;
-    margin: 0px 0 0 38%;
+    margin: 0px 0 0 40%;
     padding-bottom: 10px;
   }
   .title-5::after {
@@ -8133,7 +8127,7 @@
     top: 10px;
     bottom: 45%;
     width: 40px;
-    margin: 75px 0 0 110px;
+    margin: 75px 0 0 120px;
   }
 
   .title-5::before {
@@ -8141,8 +8135,8 @@
     right: 0;
     top: 20px;
     bottom: 20px;
-    width: 35%;
-    margin: 0px 0 0 10px;
+    width: 30%;
+    margin: 0px 0 0 25px;
   }
   .banking-main-div {
     margin: 30px 0px 70px 0px;
@@ -8177,7 +8171,7 @@
   .title-6 {
     font-size: 24px;
     line-height: 100px;
-    margin: 0px 0 0 42%;
+    margin: 0px 0 0 44%;
     padding-bottom: 10px;
   }
   .title-6::after {
@@ -8193,7 +8187,7 @@
     right: 0;
     top: 20px;
     bottom: 20px;
-    width: 22%;
+    width: 20%;
     margin: 0px 0 0 5px;
   }
   .news-div {
@@ -8218,9 +8212,9 @@
     font-size: 30px;
   }
   .footer-div {
-    padding: 30px 0px 40px 20px;
+    padding: 30px 0px 40px 60px;
     gap: 25px;
-    margin: 0 0 0 0px;
+    margin: 0px;
   }
   .footer-order-div {
     padding: 0 50px;
@@ -8237,7 +8231,7 @@
   }
   .footer-div-2 {
     width: auto;
-    padding: 0 30px;
+    padding:0 30px;
   }
   .footer-div-2-1 {
     width: auto;
@@ -8249,7 +8243,7 @@
   }
   .footer-div-3-1 {
     width: auto;
-    padding: 0 30px;
+    padding: 0px;
   }
 
   .Copyright {
@@ -8538,24 +8532,47 @@
   .content-div {
     margin: -100px auto;
   }
-  .footer-div {
-    padding: 80px 40px 60px 130px;
-    gap: 15px;
+   .footer {
+    /* margin: 130px 0 0px 100px; */
+    width: 100%;
+    height: auto;
+    padding: 80px 0 0 200px;
   }
-
+  .footer-div {
+    gap: 30px;
+    margin: 0 0 0 0px;
+    padding: 0;
+  }
+  .footer-num {
+    font-size: 30px;
+  }
+  .footer-name,
+  .footer-mail,
+  .square li a,
+  .footer-place,
+  .footer-place-1 a {
+    font-size: 20px;
+  }
+  .line-1 {
+    width: 100%;
+    margin: 0 -100px;
+    padding: 0;
+  }
   .Copyright {
     font-size: 15px;
     white-space: nowrap;
+    margin: 0;
+    margin: 0 0 0 -50px;
   }
   .logo-2 {
     width: 200px;
     display: flex;
-    margin: -10px 0 0 280px;
+    margin: -10px 0 0 250px;
   }
   .payment {
     width: 300px;
     display: flex;
-    margin: -10px 0 0 280px;
+    margin: -10px 0 0 200px;
   }
 }
 
@@ -8880,7 +8897,7 @@
   .search-icon {
     width: 25px;
     height: 25px;
-    margin: 20px 0 0 120px;
+    margin: 20px 0 0 70px;
   }
   .search-input {
     width: 250px;
@@ -9061,10 +9078,11 @@
     width: 100%;
     margin: 50px 0 0 0px;
     padding: 0 100px 0 120px;
+    gap: 50px;
   }
   .offer-div {
     width: 100%;
-    gap: 45px;
+    gap: 50px;
   }
   .offer-img {
     width: 100%;
